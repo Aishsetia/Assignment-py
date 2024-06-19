@@ -1,9 +1,8 @@
-#Program that reads multiple lines of input from the user until they
-#enter an empty line, then prints all the lines
+#Program for calculating age of user
 
+'''LOGIC-subtracting birth year from current year'''
 
-string=str(input("enter a line"))
-l=[]
-while string!=' ':
-      l=string
-print(l)
+by=int(input("enter your birth year"))
+age=2024-by
+print("your age is",age)
+
